@@ -16,10 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      - uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./site
-          destination: ./_site
+      - name: Build (PowerShell)
+        shell: pwsh
+        run: ./tools/build.ps1
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
