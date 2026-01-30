@@ -1,3 +1,119 @@
 {
-  "currentEvent": "מבחן מיפוי ספטמבר"
+  "currentEvent": "מבחן מיפוי ספטמבר",
+  "entities": {
+    "grades": [
+      {
+        "name": "שכבה ז׳",
+        "id": "z"
+      },
+      {
+        "name": "שכבה ח׳",
+        "id": "h"
+      },
+      {
+        "name": "שכבה ט׳",
+        "id": "t"
+      }
+    ],
+    "groups": [
+      {
+        "grade": "z",
+        "name": "ז מדעית",
+        "teacher": "טל נחמיה",
+        "id": "z-mad"
+      },
+      {
+        "grade": "z",
+        "name": "ז הקבצה א",
+        "teacher": "אילנית רז",
+        "id": "z-a"
+      },
+      {
+        "grade": "z",
+        "name": "ז הקבצה א1",
+        "teacher": "יניב רז",
+        "id": "z-a1"
+      },
+      {
+        "grade": "z",
+        "name": "ז מקדמת",
+        "teacher": "הילה הנסב",
+        "id": "z-mek"
+      },
+      {
+        "grade": "h",
+        "name": "ח הקבצה מדעית",
+        "teacher": "",
+        "id": "h-mad"
+      },
+      {
+        "grade": "h",
+        "name": "ח הקבצה א",
+        "teacher": "",
+        "id": "h-a"
+      },
+      {
+        "grade": "h",
+        "name": "ח הקבצה א1 (קבוצה 1)",
+        "teacher": "",
+        "id": "h-a1-1"
+      },
+      {
+        "grade": "h",
+        "name": "ח הקבצה א1 (קבוצה 2)",
+        "teacher": "",
+        "id": "h-a1-2"
+      },
+      {
+        "grade": "h",
+        "name": "ח הקבצה מקדמת",
+        "teacher": "",
+        "id": "h-mek"
+      },
+      {
+        "grade": "t",
+        "name": "ט הקבצה מדעית",
+        "teacher": "",
+        "id": "t-mad"
+      },
+      {
+        "grade": "t",
+        "name": "ט הקבצה א",
+        "teacher": "",
+        "id": "t-a"
+      },
+      {
+        "grade": "t",
+        "name": "ט הקבצה א1 (קבוצה 1)",
+        "teacher": "",
+        "id": "t-a1-1"
+      },
+      {
+        "grade": "t",
+        "name": "ט הקבצה א1 (קבוצה 2)",
+        "teacher": "",
+        "id": "t-a1-2"
+      },
+      {
+        "grade": "t",
+        "name": "ט הקבצה מקדמת",
+        "teacher": "",
+        "id": "t-mek"
+      }
+    ],
+    "teachers": [
+      {
+        "name": "טל נחמיה"
+      },
+      {
+        "name": "אילנית רז"
+      },
+      {
+        "name": "יניב רז"
+      },
+      {
+        "name": "הילה הנסב"
+      }
+    ]
+  }
 }
