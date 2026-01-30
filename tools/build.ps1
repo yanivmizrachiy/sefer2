@@ -48,7 +48,7 @@ foreach($g in @($cfg.entities.grades)){
   $htmlG += "<header class='top' style='padding:14px 16px;border-radius:16px;margin:16px auto;max-width:1100px'><h1 style='margin:0'>$gname</h1><div class='sub'>בחירת קבוצה</div></header><main style='max-width:1100px;margin:0 auto;padding:0 16px 24px'>"
   foreach($grp in @($cfg.entities.groups) | Where-Object { [string]$_.grade -eq $gid }){
     $id=[string]$grp.id; $nm=HtmlEscape([string]$grp.name); $t=HtmlEscape([string]$grp.teacher)
-    $teacherLabel = ([string]::IsNullOrWhiteSpace($t)) ? "טרם הוגדר" : $t
+    $teacherLabel = $t; if([string]::IsNullOrWhiteSpace($teacherLabel)){ $teacherLabel = "טרם הוגדר" }
     $htmlG += "<section class='card'><div style='display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center'><div><div style='font-weight:800'>$nm</div><div class='sub'>מורה: $teacherLabel</div></div><a class='btn' href='../groups/$id.html'>כניסה</a></div></section>"
   $htmlG += "<section class='card'><a href='../index.html'>⬅ חזרה</a></section></main><footer>GitHub הוא מקור האמת · אין דמו</footer></body></html>"
   ($htmlG -join "
