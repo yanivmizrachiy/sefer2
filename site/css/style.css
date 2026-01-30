@@ -7,3 +7,9 @@ footer{opacity:.7;text-align:center;padding:20px}
 table{width:100%;border-collapse:collapse;background:#fff;color:#000;border-radius:8px;overflow:hidden}
 th,td{padding:10px;border-bottom:1px solid #ddd}
 th{background:#eef3ff}
+
+.kv{display:grid;grid-template-columns:160px 1fr;gap:10px 16px;margin:10px 0}
+.mono{font-family:ui-monospace,Consolas,monospace}
+.top{background:linear-gradient(135deg,#0b1b3a,#123d7a);color:#fff}
+.top .sub{opacity:.85}
+
