@@ -26,3 +26,20 @@ Repository: **sefer2**
 ## כלל עבודה חשוב
 כל יצירה/שינוי עתידי חייב לעדכן גם את הסעיף 'מצב קיים' כאן.
 
+## מצב מערכת (מתעדכן)
+עודכן: 2026-01-30 08:46
+
+### האתר
+- Pages: https://yanivmizrachiy.github.io/sefer2/
+
+### תיקיות מקור אמת
+- spec/klalim.md (מסמך מחייב)
+- data/ (נתונים)
+- site/ (האתר)
+
+### דפים מרכזיים באתר
+- / (דף בית)
+- /grades/z.html /grades/h.html /grades/t.html
+- /teachers/
+- /klalim.html
+
