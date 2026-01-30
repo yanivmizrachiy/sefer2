@@ -1,0 +1,9 @@
+body{margin:0;font-family:Segoe UI,Arial;background:#0b1e3c;color:#fff}
+a{color:#7cc7ff;text-decoration:none}
+header{background:#0a2a66;padding:20px;text-align:center}
+.card{background:#122b52;border-radius:12px;padding:20px;margin:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+footer{opacity:.7;text-align:center;padding:20px}
+table{width:100%;border-collapse:collapse;background:#fff;color:#000;border-radius:8px;overflow:hidden}
+th,td{padding:10px;border-bottom:1px solid #ddd}
+th{background:#eef3ff}
